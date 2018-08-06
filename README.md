@@ -1,2 +1,5 @@
 # mp4upload-direct
-PHP script to Get Direct Link https://mp4upload.com
+### how to use ? 
+upload to localhost or your website and go to `/get.php?id="id"`
+
+###### 2018 MIT Licence
