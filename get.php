@@ -16,5 +16,8 @@ $mp4u = explode('|282', $mp4u[1]);
 $www = explode('|www', $url);
 $www = explode('|', $www[2]); 
 $link = ('https://www'.$www[0].'.mp4upload.com:282/d/'.$www[40].'/video.mp4');
-exit( json_encode( $link ) )
+$hasil = array(
+		'message' => $link
+	);
+	exit( json_encode( $hasil) )
 ?>
